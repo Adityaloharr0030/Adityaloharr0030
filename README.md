@@ -1,4 +1,6 @@
 <div align="center">
+  <img src="https://media.giphy.com/media/13CoXDiaCcCoyk/giphy.gif" alt="Stitch Coding" height="150" />
+  <br><br>
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&pause=1000&color=3ECF8E&center=true&vCenter=true&width=800&lines=Hi%2C%20I'm%20Aditya%20Sunil%20Lohar%20%F0%9F%91%8B;Software%20Engineering%20Intern%20%F0%9F%92%BC;Flutter%20%26%20Full-Stack%20Web%20Developer%20%F0%9F%93%B1%F0%9F%92%BB;AI%2FML%20%26%20Gemini%20API%20Integrator%20%F0%9F%A4%96;Meta%20PyTorch%20Hackathon%20Top%20800%20%F0%9F%8F%86;B.Tech%20Computer%20Engineering%20(2027)%20%F0%9F%8E%93" alt="Typing SVG" />
   <br>
   <p align="center">
@@ -8,13 +10,16 @@
     <a href="mailto:adityalohar00030@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
     <a href="https://visitcount.itsvg.in"><img src="https://visitcount.itsvg.in/api?id=Adityaloharr0030&icon=0&color=6" alt="Views"/></a>
   </p>
+  <p align="center">
+    <sub>🌺 <i>"Ohana means family. Family means nobody gets left behind or forgotten."</i> — <b>Stitch (Experiment 626)</b> 🛸</sub>
+  </p>
 </div>
 
 ---
 
 ### ⚡ Professional Summary & About Me
 
-I am a final-year **B.Tech Computer Engineering student (DBATU, 2027)** and **Software Engineering Intern** building production-grade software across **Flutter mobile development**, **Full-Stack Web (React, Next.js, Node.js)**, and **AI/ML integration (Gemini API, Claude API)**. 
+I am a final-year **B.Tech Computer Engineering student (DBATU, 2027)** and **Software Engineering Intern** building production-grade software across **Flutter mobile development**, **Full-Stack Web (React, Next.js, Node.js)**, and **AI/ML integration (Gemini API, Claude API)**. Like Experiment 626, I'm wired for high-speed execution, problem-solving, and continuous improvement! ⚡🤖
 
 - 💼 **Experience:** SAP Intern at Supreme Industries Ltd., Jalgaon — maintaining structured ERP records and supporting daily SAP data operations across business modules.
 - 🚀 **Hackathons & Competition:** Shipped an SSR streaming platform and an 11-feature AI farming app currently competing at the **FAR AWAY 2026 International Hackathon**. Ranked **Top 800 of 31,000+ entrants** at the **Meta PyTorch OpenEnv Hackathon (Scaler)**.
@@ -48,6 +53,10 @@ I am a final-year **B.Tech Computer Engineering student (DBATU, 2027)** and **So
 ---
 
 ### 🏆 Honors, Hackathons & Achievements
+
+<div align="center">
+  <img src="https://media.giphy.com/media/EPcvhM28ER9XW/giphy.gif" alt="Stitch Celebrating" height="130" />
+</div>
 
 - 🥇 **Ranked Top 800 of 31,000+ Entrants** at the **Meta PyTorch OpenEnv Hackathon (Scaler)** — advanced to the Campus Finale in Bengaluru as *Team AI_Vengers*.
 - 🌍 **FAR AWAY 2026 International Hackathon** — Competing with *Krushi Mitra* (Team AI_Vengers); Round 1 MVP submitted.
@@ -86,14 +95,16 @@ I am a final-year **B.Tech Computer Engineering student (DBATU, 2027)** and **So
 
 ---
 
-### ✍️ Random Dev Quote
+### ✍️ Random Dev Quote & Vibes
 
 <div align="center">
   <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight" alt="Dev Quote" />
+  <br><br>
+  <img src="https://media.giphy.com/media/84Xo4FrFLweYM/giphy.gif" alt="Stitch Dancing" height="120" />
 </div>
 
 ---
 
 <div align="center">
-  <sub>Proudly built by Aditya Sunil Lohar ⚙️ Every line of code is a step towards mastery.</sub>
+  <sub>🌺 Proudly built by Aditya Sunil Lohar • Powered by Ohana & Experiment 626 Energy 🛸⚡</sub>
 </div>
