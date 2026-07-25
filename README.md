@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&pause=1000&color=3ECF8E&center=true&vCenter=true&width=650&lines=Hi%2C+I'm+Aditya+Lohar+%F0%9F%91%8B;Full-Stack+Web+Developer+%F0%9F%92%BB;Building+Scalable+Web+Applications+%E2%9A%A1;B.Tech+Computer+Engineering+(2027)+%F0%9F%8E%93" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&pause=1000&color=3ECF8E&center=true&vCenter=true&width=800&lines=Hi%2C%20I'm%20Aditya%20Lohar%20%F0%9F%91%8B;Full-Stack%20Web%20Developer%20%F0%9F%92%BB;Building%20Real-World%20Web%20Apps%20%E2%9A%A1;B.Tech%20Computer%20Engineering%20(2027)%20%F0%9F%8E%93" alt="Typing SVG" />
   <br>
   <p align="center">
     <a href="https://www.linkedin.com/in/aditya-lohar-3037b32b9"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
@@ -49,7 +49,7 @@ I am a driven **Full-Stack Web Developer** and an undergraduate student pursuing
 ### 🏆 GitHub Trophies
 
 <div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=Adityaloharr0030&theme=tokyonight&no-frame=true&no-bg=true&margin-w=4" alt="GitHub Trophies" />
+  <img src="https://github-profile-trophies.vercel.app/?username=Adityaloharr0030&theme=tokyonight&no-frame=true&no-bg=true&margin-w=4" alt="GitHub Trophies" />
 </div>
 
 ---
@@ -57,20 +57,20 @@ I am a driven **Full-Stack Web Developer** and an undergraduate student pursuing
 ### 📊 GitHub Analytics & Contributions
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Adityaloharr0030&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true" alt="GitHub Stats" height="195" />
-  <img src="https://nirzak-streak-stats.vercel.app/?user=Adityaloharr0030&theme=tokyonight&hide_border=true" alt="GitHub Streak" height="195" />
+  <img src="https://github-readme-stats-fast.vercel.app/api?username=Adityaloharr0030&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true" alt="GitHub Stats" height="195" />
+  <img src="https://streak-stats.demolab.com/?user=Adityaloharr0030&theme=tokyonight&hide_border=true" alt="GitHub Streak" height="195" />
 </div>
 
 <br>
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Adityaloharr0030&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true&layout=compact" alt="Top Languages" height="195" />
+  <img src="https://github-readme-stats-fast.vercel.app/api/top-langs/?username=Adityaloharr0030&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true&layout=compact" alt="Top Languages" height="195" />
 </div>
 
 <br>
 
 <div align="center">
-  <img src="https://github-contributor-stats.vercel.app/api?username=Adityaloharr0030&limit=5&theme=tokyonight&combine_all_yearly_contributions=true" alt="Top Contributed Repos" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Adityaloharr0030&theme=tokyo-night&hide_border=true&area=true" alt="Contribution Activity Graph" width="95%" />
 </div>
 
 ---
