@@ -44,37 +44,6 @@
 ---
 
 <!-- ══════════════════════════════════════════════════════════════════════════ -->
-<!--                    💻  NEOFETCH — TERMINAL PROFILE CARD                  -->
-<!-- ══════════════════════════════════════════════════════════════════════════ -->
-
-## 💻 &nbsp; `aditya@github:~$ neofetch`
-
-```text
-  ─────────────────────────────────────────────────────────────────────────────
-                                        aditya@github
-    ####    ##                          ─────────────────────────────────────────
-   ##  ##   ##                          OS ......... Windows 11 Pro 64-bit
-   ######   ##                          Uptime ..... 20 yrs, 6 months
-   ##  ##   ##                          Kernel ..... MirAI B.Tech Student │ DBATU 2027
-   ##  ##   ######                      Shell ...... PowerShell 7 + Oh-My-Posh
-                                        Terminal ... Windows Terminal
-   ┌─────────────────────┐              CPU ........ AMD Ryzen 5 + Neural Engine™
-   │  Aditya Sunil Lohar │              GPU ........ Imagination Module (Three.js)
-   │  @Adityaloharr0030  │              Memory ..... ∞ GB  (Coffee-powered ☕)
-   └─────────────────────┘              Languages .. JavaScript · Dart · Python · Java · C++
-                                        Frameworks . Flutter · React · Next.js · Three.js
-    ⚡ "Build fast.                     AI Stack ... Gemini API · Claude API · PyTorch
-       Break things.                    Editor ..... VS Code + JetBrains Mono (ligatures)
-       Ship harder."                    Hobbies .... AI Engineering · Hackathons · Gaming
-                                        Contact .... adityalohar00030@gmail.com
-                                        ─────────────────────────────────────────
-                                        ■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■
-  ─────────────────────────────────────────────────────────────────────────────
-```
-
----
-
-<!-- ══════════════════════════════════════════════════════════════════════════ -->
 <!--                       🟢  LIVE STATUS / NOW                              -->
 <!-- ══════════════════════════════════════════════════════════════════════════ -->
 
