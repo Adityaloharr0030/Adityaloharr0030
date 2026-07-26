@@ -375,4 +375,4 @@ class AdityaLohar:
 <!--                             FOOTER WAVE                                   -->
 <!-- ══════════════════════════════════════════════════════════════════════════ -->
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f3460,50:1a1a2e,100:0D0D0D&height=120&section=footer&text=Built%20by%20Aditya%20%E2%80%A2%20Powered%20by%20Ohana%20%26%20Experiment%20626%20Energy%20%F0%9F%9B%B8%E2%9A%A1&fontSize=14&fontColor=3ECF8E&animation=twinkling&fontAlignY=65" alt="Footer" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f3460,50:1a1a2e,100:0D0D0D&height=120&section=footer&text=Built%20by%20Aditya%20%E2%80%A2%20Powered%20by%20Ohana%20%2526%20Experiment%20626%20Energy%20%F0%9F%9B%B8%E2%9A%A1&fontSize=14&fontColor=3ECF8E&animation=fadeIn&fontAlignY=65" alt="Footer" width="100%"/>
