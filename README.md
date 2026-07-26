@@ -44,10 +44,43 @@
 ---
 
 <!-- ══════════════════════════════════════════════════════════════════════════ -->
-<!--                         🧠  ABOUT ME MATRIX                              -->
+<!--                       🟢  LIVE STATUS / NOW                              -->
 <!-- ══════════════════════════════════════════════════════════════════════════ -->
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
+
+## 🟢 &nbsp; Now — `uptime: $(date)`
+
+> **This is what I'm focused on right now.** Inspired by [nownownow.com](https://nownownow.com)
+
+<div align="center">
+
+| Status | Details |
+|:---:|:---|
+| 🔨 **Building** | Krushi Mitra — AI Farming App competing @ FAR AWAY 2026 International Hackathon |
+| 📚 **Learning** | Advanced Prompt Engineering • System Design at Scale • LLM Fine-tuning |
+| 💼 **Interning** | SAP Data Operations @ Supreme Industries Ltd., Jalgaon |
+| 🎯 **Goal** | Ship 3 production apps before DBATU graduation (2027) |
+| 🌍 **Location** | Maharashtra, India 🇮🇳 — UTC+5:30 |
+| 💬 **Open to** | Collaborations, OSS contributions, Internships, AI/ML projects |
+
+</div>
+
+<div align="center">
+
+![Status](https://img.shields.io/badge/STATUS-OPEN_TO_WORK-22C55E?style=for-the-badge&logo=circle&logoColor=white)
+![Focus](https://img.shields.io/badge/FOCUS-AI_%2B_FLUTTER_%2B_WEB-8E75B2?style=for-the-badge)
+![Mood](https://img.shields.io/badge/MOOD-IN_THE_ZONE_%E2%9A%A1-F59E0B?style=for-the-badge)
+
+</div>
+
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
+
+---
+
+<!-- ══════════════════════════════════════════════════════════════════════════ -->
+<!--                         🧠  ABOUT ME MATRIX                              -->
+<!-- ══════════════════════════════════════════════════════════════════════════ -->
 
 ## <img src="https://media.giphy.com/media/iY8CRBdQXODJSCERIr/giphy.gif" width="35"> &nbsp; `whoami` — The Neural Handshake
 
@@ -83,6 +116,47 @@ class AdityaLohar:
 ---
 
 <!-- ══════════════════════════════════════════════════════════════════════════ -->
+<!--                     💻  MY DEV ENVIRONMENT CARD                          -->
+<!-- ══════════════════════════════════════════════════════════════════════════ -->
+
+## 💻 &nbsp; Dev Environment — `cat ~/.config/aditya`
+
+<div align="center">
+
+```yaml
+# ─────────────────────────────────────────────────────
+#   Aditya's Machine Config  •  Last Updated: 2026
+# ─────────────────────────────────────────────────────
+
+Editor:      VS Code + Android Studio
+Theme:       One Dark Pro  🎨
+Font:        JetBrains Mono (with ligatures) 🔤
+Terminal:    Windows Terminal + PowerShell 7
+Shell_Ext:   Oh-My-Posh (Star theme)
+
+OS:          Windows 11
+Browser:     Brave (chromium) + DevTools always open
+Version_Mgr: nvm (Node) • pub (Flutter/Dart)
+
+Productivity:
+  - Notion     → Project & task management
+  - Obsidian   → Knowledge base & second brain
+  - Figma      → UI wireframing & prototyping
+
+Daily_Stack:
+  morning:   ☕ Coffee → GitHub feed → Leetcode warmup
+  afternoon: 🔨 Deep build sessions (3–5h focus blocks)
+  evening:   📖 Docs reading + Side project tinkering
+  night:     🌌 Deploy, Review PRs, Push commits
+
+Fun_Fact:    "My commit messages are actually readable."
+```
+
+</div>
+
+---
+
+<!-- ══════════════════════════════════════════════════════════════════════════ -->
 <!--                      🚀  FEATURED PROJECTS  (CARDS)                      -->
 <!-- ══════════════════════════════════════════════════════════════════════════ -->
 
@@ -90,7 +164,6 @@ class AdityaLohar:
 
 <div align="center">
 
-<!-- Row 1: Top 2 projects -->
 <table>
   <tr>
     <td width="50%" valign="top">
@@ -265,6 +338,27 @@ class AdityaLohar:
 ---
 
 <!-- ══════════════════════════════════════════════════════════════════════════ -->
+<!--                      📈  SKILL LEVEL METERS                              -->
+<!-- ══════════════════════════════════════════════════════════════════════════ -->
+
+## 📈 &nbsp; Skill Meters — `htop --skills`
+
+```text
+Flutter & Dart       ████████████████████░░   88%  ⭐ Primary Mobile Stack
+JavaScript / TS      ███████████████████░░░░   82%  ⭐ Daily Driver
+React / Next.js      ██████████████████░░░░░   78%  🔥 Full-Stack Web
+Node.js / Express    █████████████████░░░░░░   74%  ✅ REST API Building
+Python               ████████████████░░░░░░░   70%  🤖 AI/ML Scripting
+Gemini / Claude API  ███████████████████████   95%  🧠 Prompt Engineering
+Three.js / WebGL     ████████████████░░░░░░░   70%  🌌 3D Web Scenes
+Firebase / Firestore ██████████████████████░   90%  ☁️  Cloud First
+Docker               █████████████░░░░░░░░░░   58%  📦 Containerisation
+Java / DSA           ████████████████░░░░░░░   68%  🧩 Problem Solving
+```
+
+---
+
+<!-- ══════════════════════════════════════════════════════════════════════════ -->
 <!--                         🏆  ACHIEVEMENTS                                  -->
 <!-- ══════════════════════════════════════════════════════════════════════════ -->
 
@@ -324,6 +418,37 @@ class AdityaLohar:
 ---
 
 <!-- ══════════════════════════════════════════════════════════════════════════ -->
+<!--                       🎲  FUN FACTS  TERMINAL                            -->
+<!-- ══════════════════════════════════════════════════════════════════════════ -->
+
+## 🎲 &nbsp; Fun Facts — `./aditya --random-facts`
+
+```bash
+$ ./aditya --random-facts --count 6
+
+[1] 🌺  I believe "Ohana means family" — so I treat every codebase like family.
+        (Nobody gets left behind. Especially not bugs. They get fixed.)
+
+[2] ⚡  I once built & shipped a full-stack app in 48 hours during a hackathon.
+        Coffee consumed: 6 cups. Sleep obtained: 3 hours. Regrets: 0.
+
+[3] 🌾  Krushi Mitra was inspired by watching my relatives struggle with crop diseases.
+        Turned that pain into a Gemini-Vision AI that diagnoses from a leaf photo.
+
+[4] 🤖  I use AI to write better AI prompts. It's prompts all the way down.
+
+[5] 🎮  If coding were a game, I'd be grinding the "Ship Before Deadline" achievement.
+        Current streak: never missed a hackathon submission. 🏆
+
+[6] 🌌  Three.js convinced me that the browser is actually a game engine.
+        I am now incapable of making a boring portfolio page.
+
+$ echo "--- end of fun facts ---"
+```
+
+---
+
+<!-- ══════════════════════════════════════════════════════════════════════════ -->
 <!--                         ✍️  DEV QUOTE + VIBES                            -->
 <!-- ══════════════════════════════════════════════════════════════════════════ -->
 
@@ -331,6 +456,18 @@ class AdityaLohar:
 
 <div align="center">
   <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical" alt="Dev Quote" width="80%"/>
+</div>
+
+---
+
+<!-- ══════════════════════════════════════════════════════════════════════════ -->
+<!--                       😂  DEV JOKE OF THE DAY                           -->
+<!-- ══════════════════════════════════════════════════════════════════════════ -->
+
+## 😂 &nbsp; Dev Joke of the Day
+
+<div align="center">
+  <img src="https://readme-jokes.vercel.app/api?theme=dark&qColor=%233ECF8E&aColor=%23FF6BCB&borderColor=%231a1a2e" alt="Jokes Card" width="70%"/>
 </div>
 
 ---
@@ -375,4 +512,4 @@ class AdityaLohar:
 <!--                             FOOTER WAVE                                   -->
 <!-- ══════════════════════════════════════════════════════════════════════════ -->
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f3460,50:1a1a2e,100:0D0D0D&height=120&section=footer&text=Built%20by%20Aditya%20%E2%80%A2%20Powered%20by%20Ohana%20%26%20Experiment%20626%20Energy%20%F0%9F%9B%B8%E2%9A%A1&fontSize=14&fontColor=3ECF8E&animation=fadeIn&fontAlignY=65" alt="Footer" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f3460,50:1a1a2e,100:0D0D0D&height=120&section=footer&text=Built%20by%20Aditya%20%E2%80%A2%20Powered%20by%20Ohana%20and%20Experiment%20626%20Energy%20%F0%9F%9B%B8%E2%9A%A1&fontSize=14&fontColor=3ECF8E&animation=fadeIn&fontAlignY=65" alt="Footer" width="100%"/>
