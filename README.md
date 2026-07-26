@@ -44,41 +44,6 @@
 ---
 
 <!-- ══════════════════════════════════════════════════════════════════════════ -->
-<!--        💻  NEOFETCH — TERMINAL PROFILE  [ MirAI Assignment 6 ]           -->
-<!-- ══════════════════════════════════════════════════════════════════════════ -->
-
-## 💻 &nbsp; `neofetch --user adityaloharr0030`
-
-```text
-                                              adityaloharr0030@github
-    ██████╗  ██╗          ██████╗  ██████╗    ───────────────────────────────────────
-   ██╔══██╗ ██║          ██╔══██╗ ╚════██╗    OS ......... Windows 11 Pro  🪟
-   ███████║ ██║          ╚██████╔╝  █████╔╝    Uptime ...... 19 years, 7 months ⏱️
-   ██╔══██║ ██║           ╚═══██╗ ██╔═══╝     Kernel ...... MirAI B.Tech Student 🎓
-   ██║  ██║ ███████╗     ██████╔╝ ███████╗    Host ........ DBATU — Comp. Engg. 2027
-   ╚═╝  ╚═╝ ╚══════╝     ╚═════╝  ╚══════╝    Shell ....... PowerShell 7 + Oh-My-Posh
-                                              Terminal .... Windows Terminal + VS Code
-  ┌──────────────────────────────┐            Resolution .. 1920×1080
-  │  > Experiment 626 in Code   │            CPU ......... Human Brain™ (overclocked)
-  │  > Shipping since Day One   │            Memory ...... Notion + Obsidian (2TB 🧠)
-  └──────────────────────────────┘            ───────────────────────────────────────
-                                              Languages ... JavaScript • TypeScript
-   ⠀⠀⠀⢀⣠⣤⣤⣤⣤⣤⣄⡀⠀⠀⠀⠀⠀⠀⠀⠀            ............. Dart • Python • Java
-   ⠀⠀⣴⣿⣿⣿⣿⣿⣿⣿⣿⣿⣦⠀⠀⠀⠀⠀⠀⠀            Frameworks .. Flutter • React • Next.js
-   ⠀⣼⣿⣿⡟⠁⠀⠀⠀⠈⢿⣿⣿⣧⠀⠀⠀⠀⠀⠀            ............. Node.js • Express • Three.js
-   ⢸⣿⣿⣿⡇⠀⠀⢠⡆⠀⢸⣿⣿⣿⡇⠀⠀⠀⠀⠀            AI / ML ..... Gemini API • Claude API
-   ⠘⣿⣿⣿⣷⣶⣶⣿⣿⣶⣾⣿⣿⣿⠃⠀⠀⠀⠀⠀            ............. PyTorch • Prompt Engineering
-   ⠀⠙⢿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡿⠋⠀⠀⠀⠀⠀⠀            Hobbies ..... AI Engineering • Hackathons
-   ⠀⠀⠀⠉⠛⠿⠿⠿⠿⠛⠉⠀⠀⠀⠀⠀⠀⠀⠀⠀            ............. Gaming • Open Source • 3D Web
-                                              Contact ..... adityalohar00030@gmail.com
-  Rank: 🏆 Top 800 / 31,000+                 LinkedIn .... /in/aditya-lohar-3037b32b9
-  @ Meta PyTorch OpenEnv Hackathon            Portfolio ... adi-portfolio-beta-coral
-                                                            .vercel.app
-```
-
----
-
-<!-- ══════════════════════════════════════════════════════════════════════════ -->
 <!--                       🟢  LIVE STATUS / NOW                              -->
 <!-- ══════════════════════════════════════════════════════════════════════════ -->
 
