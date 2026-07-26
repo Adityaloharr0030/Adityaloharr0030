@@ -29,13 +29,15 @@
   <a href="mailto:adityalohar00030@gmail.com">
     <img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
   </a>
-  <a href="https://visitcount.itsvg.in">
-    <img src="https://visitcount.itsvg.in/api?id=Adityaloharr0030&icon=0&color=0" alt="Profile Views"/>
-  </a>
+  <img src="https://komarev.com/ghpvc/?username=Adityaloharr0030&color=3ECF8E&style=for-the-badge&label=PROFILE+VIEWS" alt="Profile Views"/>
 </p>
 
-<!-- ╔══════════════════  CONTRIBUTION GRAPH  ════════════════════════════╗ -->
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=Adityaloharr0030&bg_color=0d1117&color=3ECF8E&line=3ECF8E&point=ffffff&area=true&hide_border=true&area_color=3ECF8E" alt="Contribution Graph" width="100%"/>
+<!-- ╔══════════════════  SNAKE ANIMATION  ══════════════════════════════╗ -->
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Adityaloharr0030/Adityaloharr0030/output/github-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Adityaloharr0030/Adityaloharr0030/output/github-snake.svg" />
+  <img alt="Snake eating my commits" src="https://raw.githubusercontent.com/Adityaloharr0030/Adityaloharr0030/output/github-snake.svg" width="100%" />
+</picture>
 
 </div>
 
