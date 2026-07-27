@@ -36,13 +36,14 @@
 </p>
 
 <!-- ╔══════════════════  MARIO CONTRIBUTION GRAPH  ══════════════════╗ -->
+</div>
+<p align="center">
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Adityaloharr0030/Adityaloharr0030/output/mario-contribution-graph-dark.svg" />
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Adityaloharr0030/Adityaloharr0030/output/mario-contribution-graph.svg" />
   <img alt="Mario collecting my commits as coins 🐍" src="https://raw.githubusercontent.com/Adityaloharr0030/Adityaloharr0030/output/mario-contribution-graph.svg" width="100%" />
 </picture>
-
-</div>
+</p>
 
 
 
