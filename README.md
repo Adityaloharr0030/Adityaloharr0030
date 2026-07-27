@@ -47,76 +47,16 @@
 ---
 
 <!-- ══════════════════════════════════════════════════════════════════════════ -->
-<!--                    🛸  MISSION BRIEFING — NOW                             -->
+<!--                       🍄  MARIO ZONE                                      -->
 <!-- ══════════════════════════════════════════════════════════════════════════ -->
-
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
-
-## 🛸 &nbsp; Mission Briefing — `uptime: $(date)`
-
-> **What Experiment 626 is currently focused on.** Inspired by [nownownow.com](https://nownownow.com)
 
 <div align="center">
 
-| Status | Details |
-|:---:|:---|
-| 🔨 **Building** | Krushi Mitra — AI Farming App competing @ FAR AWAY 2026 International Hackathon |
-| 📚 **Learning** | Advanced Prompt Engineering • System Design at Scale • LLM Fine-tuning |
-| 💼 **Interning** | SAP Data Operations @ Supreme Industries Ltd., Jalgaon |
-| 🎯 **Goal** | Ship 3 production apps before DBATU graduation (2027) |
-| 🌍 **Location** | Maharashtra, India 🇮🇳 — UTC+5:30 |
-| 💬 **Open to** | Collaborations, OSS contributions, Internships, AI/ML projects |
+<img src="https://readme-typing-svg.demolab.com?font=Press+Start+2P&size=14&duration=2000&pause=500&color=E52521&center=true&vCenter=true&width=600&height=40&lines=🍄+IT'S-A+ME%2C+ADITYA!;🌟+COINS+COLLECTED%3A+∞;🏆+WORLD+RECORD%3A+Top+800+%2F+31%2C000%2B;🛸+PLAYER+626+HAS+ENTERED+THE+GAME" alt="Mario Typing" />
+
+<img src="https://user-images.githubusercontent.com/74038190/212741999-016fddbd-617a-4448-8042-0ecf907aea25.gif" alt="Mario Running" width="100%"/>
 
 </div>
-
-<div align="center">
-
-![Status](https://img.shields.io/badge/STATUS-OPEN_TO_WORK-1E90FF?style=for-the-badge&logo=circle&logoColor=white)
-![Focus](https://img.shields.io/badge/FOCUS-AI_%2B_FLUTTER_%2B_WEB-FF69B4?style=for-the-badge)
-![Mood](https://img.shields.io/badge/MOOD-IN_THE_ZONE_⚡-00CED1?style=for-the-badge)
-
-</div>
-
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
-
----
-
-<!-- ══════════════════════════════════════════════════════════════════════════ -->
-<!--                    🌺  EXPERIMENT 626 DOSSIER                             -->
-<!-- ══════════════════════════════════════════════════════════════════════════ -->
-
-## 🌺 &nbsp; `Experiment 626 Dossier` — The Neural Handshake
-
-```python
-class Experiment626:
-    """Aditya Lohar — wired for high-speed execution & impact. Ohana means family. 🌺"""
-
-    codename    = "Experiment 626"
-    real_name   = "Aditya Sunil Lohar"
-    role        = ["Software Engineering Intern", "Flutter Dev", "AI/ML Integrator"]
-    university  = "DBATU — B.Tech Computer Engineering (2027)"
-    location    = "Maharashtra, India 🇮🇳"
-    origin      = "Earth 🌍 (definitely not a galaxy far far away... or is it? 🛸)"
-
-    superpowers = {
-        "mobile"   : ["Flutter", "Riverpod", "SQLite", "Firestore"],
-        "web"      : ["React", "Next.js", "Three.js", "GSAP", "Vite"],
-        "backend"  : ["Node.js", "Express.js", "MongoDB", "MySQL"],
-        "ai_ml"    : ["Gemini API", "Claude API", "PyTorch", "Prompt Engineering"],
-        "devops"   : ["Docker", "GitHub Actions", "Vercel", "Firebase"],
-        "languages": ["JavaScript", "TypeScript", "Dart", "Python", "Java"],
-    }
-
-    current_mission = "🌾 Building Krushi Mitra — AI-powered farm assistance for 1B+ farmers"
-    hackathon_rank  = "🏆 Top 800 / 31,000+ @ Meta PyTorch OpenEnv Hackathon"
-    philosophy      = "⚡ Ohana means family. My code never leaves bugs behind."
-    fun_fact        = "🌺 Built for chaos, optimized for impact — Experiment 626 certified."
-
-    def greet(self):
-        return "🛸 Aloha! Let's build something legendary together — Ohana! 🌺"
-```
-
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 
 ---
 
