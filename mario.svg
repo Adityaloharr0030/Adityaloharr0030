@@ -1,0 +1,223 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 185" width="100%">
+<defs>
+<style>
+  @keyframes walk {
+    from { transform: translateX(-80px); }
+    to   { transform: translateX(960px); }
+  }
+  @keyframes coinBounce {
+    0%,100% { transform: translateY(0px); }
+    50%     { transform: translateY(-14px); }
+  }
+  @keyframes drift1 {
+    0%,100% { transform: translateX(0px); }
+    50%     { transform: translateX(14px); }
+  }
+  @keyframes drift2 {
+    0%,100% { transform: translateX(0px); }
+    50%     { transform: translateX(-14px); }
+  }
+  @keyframes goombaWalk {
+    from { transform: translateX(980px); }
+    to   { transform: translateX(-80px); }
+  }
+  @keyframes starSpin {
+    0%   { transform: rotate(0deg) scale(1); }
+    50%  { transform: rotate(180deg) scale(1.2); }
+    100% { transform: rotate(360deg) scale(1); }
+  }
+  .mario   { animation: walk      8s linear infinite; }
+  .coin    { animation: coinBounce 0.55s ease-in-out infinite; }
+  .cloud1  { animation: drift1    6s ease-in-out infinite; }
+  .cloud2  { animation: drift2    8s ease-in-out infinite; }
+  .goomba  { animation: goombaWalk 12s linear infinite; }
+  .star    { animation: starSpin   2s linear infinite; }
+</style>
+</defs>
+
+<!-- ── SKY ── -->
+<rect width="900" height="185" fill="#5C94FC"/>
+
+<!-- ── BACKGROUND HILLS ── -->
+<ellipse cx="160" cy="160" rx="90" ry="40" fill="#36A800" opacity="0.5"/>
+<ellipse cx="750" cy="162" rx="80" ry="35" fill="#36A800" opacity="0.5"/>
+<ellipse cx="500" cy="165" rx="70" ry="30" fill="#36A800" opacity="0.4"/>
+
+<!-- ── CLOUD 1 ── -->
+<g class="cloud1">
+  <ellipse cx="120" cy="42" rx="48" ry="22" fill="white"/>
+  <ellipse cx="152" cy="34" rx="36" ry="26" fill="white"/>
+  <ellipse cx="90"  cy="38" rx="34" ry="20" fill="white"/>
+</g>
+
+<!-- ── CLOUD 2 ── -->
+<g class="cloud2">
+  <ellipse cx="670" cy="36" rx="52" ry="23" fill="white"/>
+  <ellipse cx="703" cy="28" rx="40" ry="28" fill="white"/>
+  <ellipse cx="637" cy="34" rx="36" ry="22" fill="white"/>
+</g>
+
+<!-- ── HUD ── -->
+<g font-family="'Courier New',Courier,monospace" font-weight="bold" font-size="12">
+  <text x="30"  y="22" fill="white">ADITYA</text>
+  <text x="30"  y="38" fill="white">☆ ∞</text>
+  <text x="408" y="22" fill="white">WORLD</text>
+  <text x="420" y="38" fill="white">1-1</text>
+  <text x="758" y="22" fill="white">TIME</text>
+  <text x="762" y="38" fill="white">626</text>
+</g>
+
+<!-- ── BRICK PLATFORM ── -->
+<!-- Brick block 1 -->
+<rect x="190" y="108" width="30" height="30" fill="#C84C0C" rx="1"/>
+<line x1="190" y1="123" x2="220" y2="123" stroke="#964000" stroke-width="1.5"/>
+<line x1="205" y1="108" x2="205" y2="123" stroke="#964000" stroke-width="1"/>
+<line x1="197" y1="123" x2="197" y2="138" stroke="#964000" stroke-width="1"/>
+<line x1="213" y1="123" x2="213" y2="138" stroke="#964000" stroke-width="1"/>
+<!-- Brick block 2 -->
+<rect x="221" y="108" width="30" height="30" fill="#E07828" rx="1"/>
+<line x1="221" y1="123" x2="251" y2="123" stroke="#964000" stroke-width="1.5"/>
+<line x1="236" y1="108" x2="236" y2="123" stroke="#964000" stroke-width="1"/>
+<line x1="228" y1="123" x2="228" y2="138" stroke="#964000" stroke-width="1"/>
+<line x1="244" y1="123" x2="244" y2="138" stroke="#964000" stroke-width="1"/>
+<!-- Brick block 3 -->
+<rect x="252" y="108" width="30" height="30" fill="#C84C0C" rx="1"/>
+<line x1="252" y1="123" x2="282" y2="123" stroke="#964000" stroke-width="1.5"/>
+<line x1="267" y1="108" x2="267" y2="123" stroke="#964000" stroke-width="1"/>
+<line x1="259" y1="123" x2="259" y2="138" stroke="#964000" stroke-width="1"/>
+<line x1="275" y1="123" x2="275" y2="138" stroke="#964000" stroke-width="1"/>
+
+<!-- ── QUESTION BLOCK ── -->
+<rect x="340" y="108" width="32" height="32" fill="#E8A000" rx="2"/>
+<rect x="342" y="110" width="28" height="28" fill="#F8C000"/>
+<rect x="342" y="110" width="28" height="4"  fill="#FFDD44" opacity="0.6"/>
+<text x="356" y="130" font-family="'Courier New',Courier,monospace" font-size="20" fill="white" font-weight="bold" text-anchor="middle">?</text>
+
+<!-- ── COIN (animated) ── -->
+<g class="coin">
+  <ellipse cx="356" cy="90" rx="10" ry="12" fill="#FFD700"/>
+  <ellipse cx="356" cy="90" rx="7"  ry="9"  fill="#FFC200"/>
+  <ellipse cx="356" cy="90" rx="4"  ry="6"  fill="#FFE050"/>
+</g>
+
+<!-- ── STAR (floating) ── -->
+<g class="star" style="transform-origin: 480px 85px;">
+  <polygon points="480,74 483,83 493,83 485,89 488,98 480,92 472,98 475,89 467,83 477,83"
+           fill="#FFD700" stroke="#FFA500" stroke-width="1"/>
+</g>
+
+<!-- ── PIPE ── -->
+<rect x="754" y="106" width="56" height="44" fill="#00A800"/>
+<rect x="750" y="106" width="64" height="17" fill="#00C800"/>
+<rect x="752" y="108" width="60" height="13" fill="#00E000" opacity="0.35"/>
+<rect x="756" y="108" width="4"  height="13" fill="white" opacity="0.15"/>
+
+<!-- ── GROUND GRASS ── -->
+<rect x="0" y="150" width="900" height="9"   fill="#6EBF00"/>
+<!-- Ground dot highlights -->
+<circle cx="30"  cy="153" r="1.5" fill="#8ED400" opacity="0.6"/>
+<circle cx="90"  cy="154" r="1.5" fill="#8ED400" opacity="0.6"/>
+<circle cx="150" cy="153" r="1.5" fill="#8ED400" opacity="0.6"/>
+<circle cx="480" cy="153" r="1.5" fill="#8ED400" opacity="0.6"/>
+<circle cx="700" cy="154" r="1.5" fill="#8ED400" opacity="0.6"/>
+<!-- Ground dirt -->
+<rect x="0" y="159" width="900" height="26" fill="#B44800"/>
+<rect x="0" y="160" width="900" height="3"  fill="#964000"/>
+<!-- Dirt bricks -->
+<g stroke="#964000" stroke-width="0.6" opacity="0.5">
+  <line x1="60"  y1="163" x2="60"  y2="185"/>
+  <line x1="120" y1="163" x2="120" y2="185"/>
+  <line x1="180" y1="163" x2="180" y2="185"/>
+  <line x1="240" y1="163" x2="240" y2="185"/>
+  <line x1="300" y1="163" x2="300" y2="185"/>
+  <line x1="360" y1="163" x2="360" y2="185"/>
+  <line x1="420" y1="163" x2="420" y2="185"/>
+  <line x1="480" y1="163" x2="480" y2="185"/>
+  <line x1="540" y1="163" x2="540" y2="185"/>
+  <line x1="600" y1="163" x2="600" y2="185"/>
+  <line x1="660" y1="163" x2="660" y2="185"/>
+  <line x1="720" y1="163" x2="720" y2="185"/>
+  <line x1="780" y1="163" x2="780" y2="185"/>
+  <line x1="840" y1="163" x2="840" y2="185"/>
+  <line x1="30"  y1="172" x2="60"  y2="172"/>
+  <line x1="90"  y1="172" x2="120" y2="172"/>
+  <line x1="150" y1="172" x2="180" y2="172"/>
+  <line x1="210" y1="172" x2="240" y2="172"/>
+  <line x1="270" y1="172" x2="300" y2="172"/>
+  <line x1="330" y1="172" x2="360" y2="172"/>
+  <line x1="390" y1="172" x2="420" y2="172"/>
+  <line x1="450" y1="172" x2="480" y2="172"/>
+  <line x1="510" y1="172" x2="540" y2="172"/>
+  <line x1="570" y1="172" x2="600" y2="172"/>
+  <line x1="630" y1="172" x2="660" y2="172"/>
+  <line x1="690" y1="172" x2="720" y2="172"/>
+  <line x1="750" y1="172" x2="780" y2="172"/>
+  <line x1="810" y1="172" x2="840" y2="172"/>
+</g>
+
+<!-- ── GOOMBA (enemy walking opposite direction) ── -->
+<g class="goomba">
+  <!-- Body -->
+  <ellipse cx="0" cy="143" rx="14" ry="12" fill="#8B4513"/>
+  <!-- Head -->
+  <ellipse cx="0" cy="132" rx="15" ry="13" fill="#C87028"/>
+  <!-- Eyes -->
+  <ellipse cx="-5" cy="130" rx="5" ry="5" fill="white"/>
+  <ellipse cx="5"  cy="130" rx="5" ry="5" fill="white"/>
+  <circle  cx="-4" cy="130" r="3"         fill="black"/>
+  <circle  cx="6"  cy="130" r="3"         fill="black"/>
+  <!-- Eyebrows (angry) -->
+  <line x1="-9" y1="126" x2="-2" y2="128" stroke="#5B2900" stroke-width="2"/>
+  <line x1="2"  y1="128" x2="9"  y2="126" stroke="#5B2900" stroke-width="2"/>
+  <!-- Feet -->
+  <ellipse cx="-8" cy="153" rx="9" ry="5" fill="#5B2900"/>
+  <ellipse cx="8"  cy="153" rx="9" ry="5" fill="#5B2900"/>
+</g>
+
+<!-- ── MARIO ── -->
+<!-- Ground y=150, Mario height=48px, so top at y=102 -->
+<g class="mario">
+  <!-- Hat crown (red) -->
+  <rect x="6"  y="102" width="27" height="6"  fill="#CC0000"/>
+  <!-- Hat brim (red, wider) -->
+  <rect x="3"  y="108" width="33" height="3"  fill="#CC0000"/>
+  <!-- Face (skin tone) -->
+  <rect x="6"  y="111" width="27" height="12" fill="#FFB894"/>
+  <!-- Eye white -->
+  <rect x="18" y="114" width="9"  height="6"  fill="white"/>
+  <!-- Pupil -->
+  <rect x="21" y="114" width="4"  height="4"  fill="#1A1A8C"/>
+  <rect x="22" y="115" width="2"  height="2"  fill="black"/>
+  <!-- Nose bump -->
+  <rect x="24" y="120" width="6"  height="3"  fill="#FFAA77"/>
+  <!-- Mustache -->
+  <rect x="9"  y="120" width="24" height="3"  fill="#8B4513"/>
+  <!-- Red shirt (body) -->
+  <rect x="3"  y="123" width="33" height="15" fill="#CC0000"/>
+  <!-- Overalls bib (blue) -->
+  <rect x="9"  y="123" width="21" height="15" fill="#0000CC"/>
+  <!-- Overall straps detail -->
+  <rect x="10" y="124" width="5"  height="8"  fill="#0000AA"/>
+  <rect x="24" y="124" width="5"  height="8"  fill="#0000AA"/>
+  <!-- Buttons -->
+  <rect x="13" y="129" width="3"  height="3"  fill="white"/>
+  <rect x="23" y="129" width="3"  height="3"  fill="white"/>
+  <!-- Left arm (red sleeve) -->
+  <rect x="0"  y="126" width="6"  height="9"  fill="#CC0000"/>
+  <!-- Right arm (red sleeve) -->
+  <rect x="33" y="126" width="6"  height="9"  fill="#CC0000"/>
+  <!-- Gloves (white) -->
+  <rect x="0"  y="135" width="6"  height="3"  fill="white"/>
+  <rect x="33" y="135" width="6"  height="3"  fill="white"/>
+  <!-- Legs (blue overalls) -->
+  <rect x="6"  y="138" width="10" height="9"  fill="#0000CC"/>
+  <rect x="23" y="138" width="10" height="9"  fill="#0000CC"/>
+  <!-- Boots (brown) -->
+  <rect x="3"  y="144" width="13" height="6"  fill="#5B2900"/>
+  <rect x="23" y="144" width="15" height="6"  fill="#5B2900"/>
+  <!-- Boot highlight -->
+  <rect x="4"  y="145" width="4"  height="2"  fill="#7A3900" opacity="0.5"/>
+  <rect x="24" y="145" width="4"  height="2"  fill="#7A3900" opacity="0.5"/>
+</g>
+
+</svg>

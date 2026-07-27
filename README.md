@@ -35,11 +35,11 @@
   <img src="https://komarev.com/ghpvc/?username=Adityaloharr0030&color=1E90FF&style=for-the-badge&label=PROFILE+VIEWS" alt="Profile Views"/>
 </p>
 
-<!-- ╔═════════════════════  BREAKOUT ARCADE ANIMATION  ════════════════════╗ -->
+<!-- ╔═════════════════════  PAC-MAN ARCADE ANIMATION  ════════════════════╗ -->
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Adityaloharr0030/Adityaloharr0030/output/breakout-contribution-graph-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Adityaloharr0030/Adityaloharr0030/output/breakout-contribution-graph.svg" />
-  <img alt="Breakout game smashing my commits 🎮" src="https://raw.githubusercontent.com/Adityaloharr0030/Adityaloharr0030/output/breakout-contribution-graph.svg" width="100%" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Adityaloharr0030/Adityaloharr0030/output/pacman-contribution-graph-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Adityaloharr0030/Adityaloharr0030/output/pacman-contribution-graph.svg" />
+  <img alt="Pac-Man eating my commits 🎮" src="https://raw.githubusercontent.com/Adityaloharr0030/Adityaloharr0030/output/pacman-contribution-graph.svg" width="100%" />
 </picture>
 
 </div>
@@ -54,7 +54,7 @@
 
 <img src="https://readme-typing-svg.demolab.com?font=Press+Start+2P&size=13&duration=2000&pause=500&color=E52521&center=true&vCenter=true&width=700&height=40&lines=ITS-A+ME%2C+ADITYA!;COINS+COLLECTED%3A+31%2C000%2B+DEVS+DEFEATED;TOP+800+WORLD+RECORD+%40+META+PYTORCH;PLAYER+626+HAS+ENTERED+THE+GAME" alt="Mario Typing" />
 
-<img src="https://media.giphy.com/media/LmNwrBhejkK9EFP504/giphy.gif" alt="Mario Running" width="60%" height="200"/>
+<img src="./mario.svg" alt="Mario Game Animation" width="100%"/>
 
 </div>
 
