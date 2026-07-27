@@ -32,11 +32,11 @@
   <img src="https://komarev.com/ghpvc/?username=Adityaloharr0030&color=3ECF8E&style=for-the-badge&label=PROFILE+VIEWS" alt="Profile Views"/>
 </p>
 
-<!-- ╔══════════════════  PAC-MAN ARCADE ANIMATION  ═════════════════════╗ -->
+<!-- ╔═════════════════════  BREAKOUT ARCADE ANIMATION  ════════════════════╗ -->
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Adityaloharr0030/Adityaloharr0030/output/pacman-contribution-graph-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Adityaloharr0030/Adityaloharr0030/output/pacman-contribution-graph.svg" />
-  <img alt="Pac-Man eating my commits 🎮" src="https://raw.githubusercontent.com/Adityaloharr0030/Adityaloharr0030/output/pacman-contribution-graph.svg" width="100%" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Adityaloharr0030/Adityaloharr0030/output/breakout-contribution-graph-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Adityaloharr0030/Adityaloharr0030/output/breakout-contribution-graph.svg" />
+  <img alt="Breakout game smashing my commits 🎮" src="https://raw.githubusercontent.com/Adityaloharr0030/Adityaloharr0030/output/breakout-contribution-graph.svg" width="100%" />
 </picture>
 
 </div>
