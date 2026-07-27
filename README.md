@@ -1,16 +1,19 @@
 <!-- ═══════════════════════════════════════════════════════════════════════════ -->
-<!--                   ✦  ADITYA LOHAR — GITHUB PROFILE  ✦                   -->
+<!--          🛸  EXPERIMENT 626 — ADITYA LOHAR — GITHUB PROFILE  🌺             -->
 <!-- ═══════════════════════════════════════════════════════════════════════════ -->
 
 <div align="center">
 
-<!-- ╔══════════════════  ANIMATED PARTICLE BANNER  ══════════════════╗ -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0D0D0D,50:1a1a2e,100:0f3460&height=200&section=header&text=Aditya%20Sunil%20Lohar&fontSize=52&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Software%20Engineer%20%E2%80%A2%20AI%2FML%20%E2%80%A2%20Full-Stack%20%E2%80%A2%20Flutter&descAlignY=60&descSize=16&descColor=3ECF8E" alt="Header" width="100%"/>
+<!-- ╔══════════════════  STITCH WAVE HEADER  ══════════════════════════╗ -->
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0a0a1e,50:0d1b6e,100:1a8fc1&height=220&section=header&text=Experiment%20626%20%7C%20Aditya%20Lohar&fontSize=46&fontColor=00CED1&animation=fadeIn&fontAlignY=38&desc=Software%20Engineer%20%E2%80%A2%20AI%2FML%20%E2%80%A2%20Full-Stack%20%E2%80%A2%20Flutter&descAlignY=60&descSize=16&descColor=FF69B4" alt="Experiment 626 Header" width="100%"/>
+
+<!-- ╔══════════════════  STITCH GIF  ════════════════════════════════════╗ -->
+<img src="https://media.giphy.com/media/13CoXDiaCcCoyk/giphy.gif" alt="Stitch Coding" width="130"/>
 
 <!-- ╔══════════════════  LIVE TYPING ANIMATION  ══════════════════════╗ -->
 <br>
 <a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=22&duration=3000&pause=800&color=3ECF8E&center=true&vCenter=true&multiline=false&width=800&height=50&lines=%E2%9A%A1+Hi%2C+I'm+Aditya+%E2%80%94+Experiment+626+in+Code+Form;%F0%9F%9A%80+Shipping+Production+Apps+Since+Day+One;%F0%9F%A4%96+AI%2FML+%7C+Gemini+API+%7C+Claude+API+Integrator;%F0%9F%8F%86+Top+800+of+31%2C000%2B+%E2%80%94+Meta+PyTorch+Hackathon;%F0%9F%93%B1+Flutter+%7C+React+%7C+Next.js+%7C+Three.js+%7C+GSAP;%F0%9F%8E%93+B.Tech+Computer+Engineering+%E2%80%94+DBATU+2027" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=22&duration=3000&pause=800&color=1E90FF&center=true&vCenter=true&multiline=false&width=820&height=50&lines=🌺+Ohana+means+family+—+family+ships+production+code;🛸+Experiment+626+—+Built+for+chaos%2C+optimized+for+impact;🤖+AI%2FML+%7C+Gemini+API+%7C+Claude+API+Integrator;🏆+Top+800+of+31%2C000%2B+—+Meta+PyTorch+Hackathon;📱+Flutter+%7C+React+%7C+Next.js+%7C+Three.js+%7C+GSAP;🎓+B.Tech+Computer+Engineering+—+DBATU+2027" alt="Typing SVG" />
 </a>
 
 <br><br>
@@ -18,7 +21,7 @@
 <!-- ╔══════════════════  SOCIAL BADGES  ══════════════════════════════╗ -->
 <p>
   <a href="https://adi-portfolio-beta-coral.vercel.app">
-    <img src="https://img.shields.io/badge/🌐_3D_Portfolio-Live_Now-3ECF8E?style=for-the-badge&logoColor=white" alt="Portfolio"/>
+    <img src="https://img.shields.io/badge/🌐_3D_Portfolio-Live_Now-1E90FF?style=for-the-badge&logoColor=white" alt="Portfolio"/>
   </a>
   <a href="https://www.linkedin.com/in/aditya-lohar-3037b32b9">
     <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
@@ -29,7 +32,7 @@
   <a href="mailto:adityalohar00030@gmail.com">
     <img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
   </a>
-  <img src="https://komarev.com/ghpvc/?username=Adityaloharr0030&color=3ECF8E&style=for-the-badge&label=PROFILE+VIEWS" alt="Profile Views"/>
+  <img src="https://komarev.com/ghpvc/?username=Adityaloharr0030&color=1E90FF&style=for-the-badge&label=PROFILE+VIEWS" alt="Profile Views"/>
 </p>
 
 <!-- ╔═════════════════════  BREAKOUT ARCADE ANIMATION  ════════════════════╗ -->
@@ -44,14 +47,14 @@
 ---
 
 <!-- ══════════════════════════════════════════════════════════════════════════ -->
-<!--                       🟢  LIVE STATUS / NOW                              -->
+<!--                    🛸  MISSION BRIEFING — NOW                             -->
 <!-- ══════════════════════════════════════════════════════════════════════════ -->
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 
-## 🟢 &nbsp; Now — `uptime: $(date)`
+## 🛸 &nbsp; Mission Briefing — `uptime: $(date)`
 
-> **This is what I'm focused on right now.** Inspired by [nownownow.com](https://nownownow.com)
+> **What Experiment 626 is currently focused on.** Inspired by [nownownow.com](https://nownownow.com)
 
 <div align="center">
 
@@ -68,9 +71,9 @@
 
 <div align="center">
 
-![Status](https://img.shields.io/badge/STATUS-OPEN_TO_WORK-22C55E?style=for-the-badge&logo=circle&logoColor=white)
-![Focus](https://img.shields.io/badge/FOCUS-AI_%2B_FLUTTER_%2B_WEB-8E75B2?style=for-the-badge)
-![Mood](https://img.shields.io/badge/MOOD-IN_THE_ZONE_%E2%9A%A1-F59E0B?style=for-the-badge)
+![Status](https://img.shields.io/badge/STATUS-OPEN_TO_WORK-1E90FF?style=for-the-badge&logo=circle&logoColor=white)
+![Focus](https://img.shields.io/badge/FOCUS-AI_%2B_FLUTTER_%2B_WEB-FF69B4?style=for-the-badge)
+![Mood](https://img.shields.io/badge/MOOD-IN_THE_ZONE_⚡-00CED1?style=for-the-badge)
 
 </div>
 
@@ -79,19 +82,21 @@
 ---
 
 <!-- ══════════════════════════════════════════════════════════════════════════ -->
-<!--                         🧠  ABOUT ME MATRIX                              -->
+<!--                    🌺  EXPERIMENT 626 DOSSIER                             -->
 <!-- ══════════════════════════════════════════════════════════════════════════ -->
 
-## <img src="https://media.giphy.com/media/iY8CRBdQXODJSCERIr/giphy.gif" width="35"> &nbsp; `whoami` — The Neural Handshake
+## 🌺 &nbsp; `Experiment 626 Dossier` — The Neural Handshake
 
 ```python
-class AdityaLohar:
-    """Experiment 626 — wired for high-speed execution & impact."""
+class Experiment626:
+    """Aditya Lohar — wired for high-speed execution & impact. Ohana means family. 🌺"""
 
-    name       = "Aditya Sunil Lohar"
-    role       = ["Software Engineering Intern", "Flutter Dev", "AI/ML Integrator"]
-    university = "DBATU — B.Tech Computer Engineering (2027)"
-    location   = "Maharashtra, India 🇮🇳"
+    codename    = "Experiment 626"
+    real_name   = "Aditya Sunil Lohar"
+    role        = ["Software Engineering Intern", "Flutter Dev", "AI/ML Integrator"]
+    university  = "DBATU — B.Tech Computer Engineering (2027)"
+    location    = "Maharashtra, India 🇮🇳"
+    origin      = "Earth 🌍 (definitely not a galaxy far far away... or is it? 🛸)"
 
     superpowers = {
         "mobile"   : ["Flutter", "Riverpod", "SQLite", "Firestore"],
@@ -104,23 +109,22 @@ class AdityaLohar:
 
     current_mission = "🌾 Building Krushi Mitra — AI-powered farm assistance for 1B+ farmers"
     hackathon_rank  = "🏆 Top 800 / 31,000+ @ Meta PyTorch OpenEnv Hackathon"
-    philosophy      = "⚡ Build fast. Break things. Ship harder."
-    fun_fact        = "🌺 Ohana means family. My code never leaves bugs behind."
+    philosophy      = "⚡ Ohana means family. My code never leaves bugs behind."
+    fun_fact        = "🌺 Built for chaos, optimized for impact — Experiment 626 certified."
 
     def greet(self):
-        return "Hey there! Let's build something legendary together 🚀"
+        return "🛸 Aloha! Let's build something legendary together — Ohana! 🌺"
 ```
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 
 ---
 
-
 <!-- ══════════════════════════════════════════════════════════════════════════ -->
-<!--                      🚀  FEATURED PROJECTS  (CARDS)                      -->
+<!--                      🚀  EXPERIMENT LOGS — PROJECTS                       -->
 <!-- ══════════════════════════════════════════════════════════════════════════ -->
 
-## <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="40"> &nbsp; Featured Projects — `git log --oneline --graph`
+## <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="40"> &nbsp; Experiment Logs — `git log --oneline --graph`
 
 <div align="center">
 
@@ -138,7 +142,7 @@ class AdityaLohar:
         </a>
         <br><br>
         <img src="https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white"/>
-        <img src="https://img.shields.io/badge/Gemini_API-8E75B2?style=for-the-badge&logo=google&logoColor=white"/>
+        <img src="https://img.shields.io/badge/Gemini_API-1E90FF?style=for-the-badge&logo=google&logoColor=white"/>
         <img src="https://img.shields.io/badge/Claude_API-D97757?style=for-the-badge&logo=anthropic&logoColor=white"/>
         <br>
         <img src="https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black"/>
@@ -189,7 +193,7 @@ class AdityaLohar:
       </h3>
       <div align="center">
         <a href="https://adi-portfolio-beta-coral.vercel.app" target="_blank">
-          <img src="https://img.shields.io/badge/🚀_LIVE_DEMO-Click_Here-3ECF8E?style=flat-square"/>
+          <img src="https://img.shields.io/badge/🚀_LIVE_DEMO-Click_Here-1E90FF?style=flat-square"/>
         </a>
         <br><br>
         <img src="https://img.shields.io/badge/Three.js-000000?style=for-the-badge&logo=threedotjs&logoColor=white"/>
@@ -211,7 +215,7 @@ class AdityaLohar:
       <h3 align="center">
         🤖 AI / ML Experiments
         <br>
-        <sub><code>Hackathon & Research Projects</code></sub>
+        <sub><code>Hackathon &amp; Research Projects</code></sub>
       </h3>
       <div align="center">
         <a href="#" target="_blank">
@@ -220,7 +224,7 @@ class AdityaLohar:
         <br><br>
         <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white"/>
         <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
-        <img src="https://img.shields.io/badge/Gemini-8E75B2?style=for-the-badge&logo=google&logoColor=white"/>
+        <img src="https://img.shields.io/badge/Gemini-1E90FF?style=for-the-badge&logo=google&logoColor=white"/>
         <br><br>
       </div>
       <ul>
@@ -238,10 +242,10 @@ class AdityaLohar:
 ---
 
 <!-- ══════════════════════════════════════════════════════════════════════════ -->
-<!--                      🛠️  TECH STACK — SKILL BARS                        -->
+<!--                        🛠️  626's TOOLKIT                                  -->
 <!-- ══════════════════════════════════════════════════════════════════════════ -->
 
-## <img src="https://media2.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif" width="35"> &nbsp; Tech Arsenal — `npm list --depth=0`
+## <img src="https://media2.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif" width="35"> &nbsp; 626's Toolkit — `npm list --depth=0`
 
 <div align="center">
 
@@ -270,7 +274,7 @@ class AdityaLohar:
 
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
 ![Express.js](https://img.shields.io/badge/Express.js-404D59?style=for-the-badge&logo=express&logoColor=61DAFB)
-![Google Gemini](https://img.shields.io/badge/Gemini_API-8E75B2?style=for-the-badge&logo=google&logoColor=white)
+![Google Gemini](https://img.shields.io/badge/Gemini_API-1E90FF?style=for-the-badge&logo=google&logoColor=white)
 ![Claude API](https://img.shields.io/badge/Claude_API-D97757?style=for-the-badge&logo=anthropic&logoColor=white)
 ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
 
@@ -298,10 +302,10 @@ class AdityaLohar:
 ---
 
 <!-- ══════════════════════════════════════════════════════════════════════════ -->
-<!--                      📈  SKILL LEVEL METERS                              -->
+<!--                        📈  POWER READINGS                                 -->
 <!-- ══════════════════════════════════════════════════════════════════════════ -->
 
-## 📈 &nbsp; Skill Meters — `htop --skills`
+## 📈 &nbsp; Power Readings — `htop --skills`
 
 ```text
 Flutter & Dart       ████████████████████░░   88%  ⭐ Primary Mobile Stack
@@ -319,10 +323,10 @@ Java / DSA           ████████████████░░░�
 ---
 
 <!-- ══════════════════════════════════════════════════════════════════════════ -->
-<!--                         🏆  ACHIEVEMENTS                                  -->
+<!--                      🏆  HALL OF FAME — ACHIEVEMENTS                      -->
 <!-- ══════════════════════════════════════════════════════════════════════════ -->
 
-## <img src="https://media.giphy.com/media/EPcvhM28ER9XW/giphy.gif" width="40"> &nbsp; Honors & Achievements — `sudo awards --all`
+## <img src="https://media.giphy.com/media/EPcvhM28ER9XW/giphy.gif" width="40"> &nbsp; 626's Hall of Fame — `sudo awards --all`
 
 <div align="center">
 
@@ -342,95 +346,94 @@ Java / DSA           ████████████████░░░�
 ---
 
 <!-- ══════════════════════════════════════════════════════════════════════════ -->
-<!--                         🏆  GITHUB TROPHIES                               -->
+<!--                      🏆  STITCH'S TROPHY WALL                             -->
 <!-- ══════════════════════════════════════════════════════════════════════════ -->
 
-## 🏆 GitHub Trophies — `git log --trophies`
+## 🏆 Stitch's Trophy Wall — `git log --trophies`
 
 <div align="center">
-  <img src="https://github-profile-trophies.vercel.app/?username=Adityaloharr0030&theme=radical&no-frame=true&no-bg=true&margin-w=4&column=7" alt="GitHub Trophies" width="100%"/>
+  <img src="https://github-profile-trophies.vercel.app/?username=Adityaloharr0030&theme=algolia&no-frame=true&no-bg=true&margin-w=4&column=7" alt="GitHub Trophies" width="100%"/>
 </div>
 
 ---
 
 <!-- ══════════════════════════════════════════════════════════════════════════ -->
-<!--                         📊  GITHUB ANALYTICS                             -->
+<!--                        📊  MISSION CONTROL                                -->
 <!-- ══════════════════════════════════════════════════════════════════════════ -->
 
-## 📊 GitHub Analytics — `git stats --verbose`
+## 📊 Mission Control — `git stats --verbose`
 
 <div align="center">
 
-<img src="https://github-readme-stats-fast.vercel.app/api?username=Adityaloharr0030&theme=radical&hide_border=true&include_all_commits=true&count_private=true&show_icons=true&rank_icon=github" alt="GitHub Stats" height="195"/>
+<img src="https://github-readme-stats-fast.vercel.app/api?username=Adityaloharr0030&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true&show_icons=true&rank_icon=github" alt="GitHub Stats" height="195"/>
 &nbsp;&nbsp;
-<img src="https://streak-stats.demolab.com/?user=Adityaloharr0030&theme=radical&hide_border=true" alt="GitHub Streak" height="195"/>
+<img src="https://streak-stats.demolab.com/?user=Adityaloharr0030&theme=tokyonight&hide_border=true" alt="GitHub Streak" height="195"/>
 
 <br><br>
 
-<img src="https://github-readme-stats-fast.vercel.app/api/top-langs/?username=Adityaloharr0030&theme=radical&hide_border=true&include_all_commits=true&count_private=true&layout=donut-vertical" alt="Top Languages" height="300"/>
+<img src="https://github-readme-stats-fast.vercel.app/api/top-langs/?username=Adityaloharr0030&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true&layout=donut-vertical" alt="Top Languages" height="300"/>
 
 <br><br>
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=Adityaloharr0030&bg_color=0d1117&color=FF6BCB&line=FF6BCB&point=FFFFFF&area=true&hide_border=true&area_color=FF6BCB" alt="Contribution Graph" width="95%"/>
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=Adityaloharr0030&bg_color=1a1b27&color=1E90FF&line=1E90FF&point=FF69B4&area=true&hide_border=true&area_color=1E90FF" alt="Contribution Graph" width="95%"/>
 
 </div>
 
 ---
 
 <!-- ══════════════════════════════════════════════════════════════════════════ -->
-<!--                       🎲  FUN FACTS  TERMINAL                            -->
+<!--                    🎲  626 RANDOM TRANSMISSIONS                           -->
 <!-- ══════════════════════════════════════════════════════════════════════════ -->
 
-## 🎲 &nbsp; Fun Facts — `./aditya --random-facts`
+## 🎲 &nbsp; 626's Random Transmissions — `./experiment-626 --random-facts`
 
 ```bash
-$ ./aditya --random-facts --count 6
+$ ./experiment-626 --random-facts --count 6
 
-[1] 🌺  I believe "Ohana means family" — so I treat every codebase like family.
-        (Nobody gets left behind. Especially not bugs. They get fixed.)
+[1] 🌺  Ohana means family. So I treat every codebase like family.
+        Nobody gets left behind. Especially not bugs. They get squashed.
 
-[2] ⚡  I once built & shipped a full-stack app in 48 hours during a hackathon.
+[2] ⚡  Built & shipped a full-stack app in 48 hours during a hackathon.
         Coffee consumed: 6 cups. Sleep obtained: 3 hours. Regrets: 0.
 
-[3] 🌾  Krushi Mitra was inspired by watching my relatives struggle with crop diseases.
+[3] 🌾  Krushi Mitra was born watching relatives struggle with crop diseases.
         Turned that pain into a Gemini-Vision AI that diagnoses from a leaf photo.
 
 [4] 🤖  I use AI to write better AI prompts. It's prompts all the way down.
 
-[5] 🎮  If coding were a game, I'd be grinding the "Ship Before Deadline" achievement.
+[5] 🎮  If coding were a game, I'd be grinding "Ship Before Deadline" achievement.
         Current streak: never missed a hackathon submission. 🏆
 
-[6] 🌌  Three.js convinced me that the browser is actually a game engine.
-        I am now incapable of making a boring portfolio page.
+[6] 🛸  Three.js convinced me that the browser is actually a game engine.
+        Now I physically cannot make a boring portfolio page.
 
-$ echo "--- end of fun facts ---"
+$ echo "--- end of experiment-626 transmissions ---"
 ```
 
 ---
 
 <!-- ══════════════════════════════════════════════════════════════════════════ -->
-<!--                         ✍️  DEV QUOTE + VIBES                            -->
+<!--                      ✍️  626's DAILY WISDOM                               -->
 <!-- ══════════════════════════════════════════════════════════════════════════ -->
 
-## ✍️ Daily Fuel — `fortune | cowsay`
+## ✍️ 626's Daily Wisdom — `fortune | cowsay`
 
 <div align="center">
-  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical" alt="Dev Quote" width="80%"/>
+  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight" alt="Dev Quote" width="80%"/>
 </div>
 
 ---
 
-
 <!-- ══════════════════════════════════════════════════════════════════════════ -->
-<!--                         🌐  CONNECT SECTION                               -->
+<!--                       🌺  FIND EXPERIMENT 626                             -->
 <!-- ══════════════════════════════════════════════════════════════════════════ -->
 
-## 🌐 Let's Connect — `ssh aditya@anywhere.in.the.world`
+## 🌺 Find Experiment 626 — `ssh aditya@anywhere.in.the.world`
 
 <div align="center">
 
 <a href="https://adi-portfolio-beta-coral.vercel.app">
-  <img src="https://img.shields.io/badge/🌐_3D_Portfolio-Explore_Now-3ECF8E?style=for-the-badge" alt="Portfolio"/>
+  <img src="https://img.shields.io/badge/🌐_3D_Portfolio-Explore_Now-1E90FF?style=for-the-badge" alt="Portfolio"/>
 </a>
 &nbsp;
 <a href="https://www.linkedin.com/in/aditya-lohar-3037b32b9">
@@ -447,9 +450,9 @@ $ echo "--- end of fun facts ---"
 
 <br><br>
 
-<img src="https://media.giphy.com/media/13CoXDiaCcCoyk/giphy.gif" alt="Stitch Coding" height="120"/>
+<img src="https://media.giphy.com/media/13CoXDiaCcCoyk/giphy.gif" alt="Stitch Coding" height="130"/>
 &nbsp;&nbsp;&nbsp;&nbsp;
-<img src="https://media.giphy.com/media/84Xo4FrFLweYM/giphy.gif" alt="Stitch Dancing" height="120"/>
+<img src="https://media.giphy.com/media/84Xo4FrFLweYM/giphy.gif" alt="Stitch Dancing" height="130"/>
 
 <br>
 
@@ -458,7 +461,7 @@ $ echo "--- end of fun facts ---"
 </div>
 
 <!-- ══════════════════════════════════════════════════════════════════════════ -->
-<!--                             FOOTER WAVE                                   -->
+<!--                             STITCH FOOTER WAVE                            -->
 <!-- ══════════════════════════════════════════════════════════════════════════ -->
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f3460,50:1a1a2e,100:0D0D0D&height=120&section=footer&text=Built%20by%20Aditya%20%E2%80%A2%20Powered%20by%20Ohana%20and%20Experiment%20626%20Energy%20%F0%9F%9B%B8%E2%9A%A1&fontSize=14&fontColor=3ECF8E&animation=fadeIn&fontAlignY=65" alt="Footer" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:1a8fc1,50:0d1b6e,100:0a0a1e&height=130&section=footer&text=Built%20by%20Experiment%20626%20%E2%80%A2%20Powered%20by%20Ohana%20%26%20Stitch%20Energy%20%F0%9F%9B%B8%F0%9F%8C%BA&fontSize=14&fontColor=00CED1&animation=fadeIn&fontAlignY=65" alt="Footer" width="100%"/>
