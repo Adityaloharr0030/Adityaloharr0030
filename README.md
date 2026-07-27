@@ -52,9 +52,9 @@
 
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=Press+Start+2P&size=14&duration=2000&pause=500&color=E52521&center=true&vCenter=true&width=600&height=40&lines=🍄+IT'S-A+ME%2C+ADITYA!;🌟+COINS+COLLECTED%3A+∞;🏆+WORLD+RECORD%3A+Top+800+%2F+31%2C000%2B;🛸+PLAYER+626+HAS+ENTERED+THE+GAME" alt="Mario Typing" />
+<img src="https://readme-typing-svg.demolab.com?font=Press+Start+2P&size=13&duration=2000&pause=500&color=E52521&center=true&vCenter=true&width=700&height=40&lines=ITS-A+ME%2C+ADITYA!;COINS+COLLECTED%3A+31%2C000%2B+DEVS+DEFEATED;TOP+800+WORLD+RECORD+%40+META+PYTORCH;PLAYER+626+HAS+ENTERED+THE+GAME" alt="Mario Typing" />
 
-<img src="https://user-images.githubusercontent.com/74038190/212741999-016fddbd-617a-4448-8042-0ecf907aea25.gif" alt="Mario Running" width="100%"/>
+<img src="https://media.giphy.com/media/LmNwrBhejkK9EFP504/giphy.gif" alt="Mario Running" width="60%" height="200"/>
 
 </div>
 
