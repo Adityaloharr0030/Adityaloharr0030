@@ -35,11 +35,11 @@
   <img src="https://komarev.com/ghpvc/?username=Adityaloharr0030&color=1E90FF&style=for-the-badge&label=PROFILE+VIEWS" alt="Profile Views"/>
 </p>
 
-<!-- ╔═════════════════════  PAC-MAN ARCADE ANIMATION  ════════════════════╗ -->
+<!-- ╔══════════════════  MARIO CONTRIBUTION GRAPH  ══════════════════╗ -->
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Adityaloharr0030/Adityaloharr0030/output/pacman-contribution-graph-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Adityaloharr0030/Adityaloharr0030/output/pacman-contribution-graph.svg" />
-  <img alt="Pac-Man eating my commits 🎮" src="https://raw.githubusercontent.com/Adityaloharr0030/Adityaloharr0030/output/pacman-contribution-graph.svg" width="100%" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Adityaloharr0030/Adityaloharr0030/output/mario-contribution-graph-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Adityaloharr0030/Adityaloharr0030/output/mario-contribution-graph.svg" />
+  <img alt="Mario collecting my commits as coins 🐍" src="https://raw.githubusercontent.com/Adityaloharr0030/Adityaloharr0030/output/mario-contribution-graph.svg" width="100%" />
 </picture>
 
 </div>

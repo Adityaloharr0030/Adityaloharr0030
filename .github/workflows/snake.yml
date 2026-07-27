@@ -1,9 +1,8 @@
-name: 🎮 Generate Arcade Contribution Graph
+name: 🍄 Mario Contribution Graph
 
 on:
   schedule:
-    # Runs every 24 hours
-    - cron: "0 0 * * *"
+    - cron: "0 */24 * * *"
   workflow_dispatch:
   push:
     branches:
@@ -11,19 +10,25 @@ on:
 
 jobs:
   generate:
-    permissions:
-      contents: write
     runs-on: ubuntu-latest
     timeout-minutes: 20
 
     steps:
-      - name: 🎮 Generate Breakout Contribution Graph
-        uses: abozanona/pacman-contribution-graph@main
-        with:
-          github_user_name: ${{ github.repository_owner }}
-          games: 'breakout'
+      - name: ⬇️ Checkout repository
+        uses: actions/checkout@v3
 
-      - name: 🚀 Push to output branch
+      - name: 🐍 Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+
+      - name: 🍄 Generate Mario Contribution Graph
+        run: python generate_mario.py
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_USER: ${{ github.repository_owner }}
+
+      - name: 🚀 Push SVGs to output branch
         uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
           target_branch: output
