@@ -32,11 +32,11 @@
   <img src="https://komarev.com/ghpvc/?username=Adityaloharr0030&color=3ECF8E&style=for-the-badge&label=PROFILE+VIEWS" alt="Profile Views"/>
 </p>
 
-<!-- ╔══════════════════  SNAKE ANIMATION  ══════════════════════════════╗ -->
+<!-- ╔══════════════════  PAC-MAN ARCADE ANIMATION  ═════════════════════╗ -->
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Adityaloharr0030/Adityaloharr0030/output/github-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Adityaloharr0030/Adityaloharr0030/output/github-snake.svg" />
-  <img alt="Snake eating my commits" src="https://raw.githubusercontent.com/Adityaloharr0030/Adityaloharr0030/output/github-snake.svg" width="100%" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Adityaloharr0030/Adityaloharr0030/output/pacman-contribution-graph-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Adityaloharr0030/Adityaloharr0030/output/pacman-contribution-graph.svg" />
+  <img alt="Pac-Man eating my commits 🎮" src="https://raw.githubusercontent.com/Adityaloharr0030/Adityaloharr0030/output/pacman-contribution-graph.svg" width="100%" />
 </picture>
 
 </div>
@@ -115,46 +115,6 @@ class AdityaLohar:
 
 ---
 
-<!-- ══════════════════════════════════════════════════════════════════════════ -->
-<!--                     💻  MY DEV ENVIRONMENT CARD                          -->
-<!-- ══════════════════════════════════════════════════════════════════════════ -->
-
-## 💻 &nbsp; Dev Environment — `cat ~/.config/aditya`
-
-<div align="center">
-
-```yaml
-# ─────────────────────────────────────────────────────
-#   Aditya's Machine Config  •  Last Updated: 2026
-# ─────────────────────────────────────────────────────
-
-Editor:      VS Code + Android Studio
-Theme:       One Dark Pro  🎨
-Font:        JetBrains Mono (with ligatures) 🔤
-Terminal:    Windows Terminal + PowerShell 7
-Shell_Ext:   Oh-My-Posh (Star theme)
-
-OS:          Windows 11
-Browser:     Brave (chromium) + DevTools always open
-Version_Mgr: nvm (Node) • pub (Flutter/Dart)
-
-Productivity:
-  - Notion     → Project & task management
-  - Obsidian   → Knowledge base & second brain
-  - Figma      → UI wireframing & prototyping
-
-Daily_Stack:
-  morning:   ☕ Coffee → GitHub feed → Leetcode warmup
-  afternoon: 🔨 Deep build sessions (3–5h focus blocks)
-  evening:   📖 Docs reading + Side project tinkering
-  night:     🌌 Deploy, Review PRs, Push commits
-
-Fun_Fact:    "My commit messages are actually readable."
-```
-
-</div>
-
----
 
 <!-- ══════════════════════════════════════════════════════════════════════════ -->
 <!--                      🚀  FEATURED PROJECTS  (CARDS)                      -->
@@ -460,17 +420,6 @@ $ echo "--- end of fun facts ---"
 
 ---
 
-<!-- ══════════════════════════════════════════════════════════════════════════ -->
-<!--                       😂  DEV JOKE OF THE DAY                           -->
-<!-- ══════════════════════════════════════════════════════════════════════════ -->
-
-## 😂 &nbsp; Dev Joke of the Day
-
-<div align="center">
-  <img src="https://readme-jokes.vercel.app/api?theme=dark&qColor=%233ECF8E&aColor=%23FF6BCB&borderColor=%231a1a2e" alt="Jokes Card" width="70%"/>
-</div>
-
----
 
 <!-- ══════════════════════════════════════════════════════════════════════════ -->
 <!--                         🌐  CONNECT SECTION                               -->
