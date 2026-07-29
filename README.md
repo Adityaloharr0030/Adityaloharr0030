@@ -9,7 +9,7 @@
 
 <!-- ╔══════════════════  LIVE TYPING ANIMATION  ══════════════════════╗ -->
 <a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=22&duration=3000&pause=800&color=00F5FF&center=true&vCenter=true&multiline=false&width=820&height=50&lines=%F0%9F%8C%BA+Ohana+means+family+%E2%80%94+family+ships+production+code;%F0%9F%9B%B8+Experiment+626+%E2%80%94+Built+for+chaos%2C+optimized+for+impact;%F0%9F%A4%96+AI%2FML+%7C+Gemini+API+%7C+Claude+API+Integrator;%F0%9F%8F%86+Top+800+of+31%2C000%2B+%E2%80%94+Meta+PyTorch+Hackathon;%F0%9F%93%B1+Flutter+%7C+React+%7C+Next.js+%7C+Three.js+%7C+GSAP;%F0%9F%8E%93+B.Tech+Computer+Engineering+%E2%80%94+DBATU+2027" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=700&size=22&duration=3000&pause=800&color=00F5FF&center=true&vCenter=true&multiline=false&width=820&height=50&lines=%F0%9F%8C%BA+Ohana+means+family+%E2%80%94+family+ships+production+code;%F0%9F%9B%B8+Experiment+626+%E2%80%94+Built+for+chaos%2C+optimized+for+impact;%F0%9F%A4%96+AI%2FML+%7C+Gemini+API+%7C+Claude+API+Integrator;%F0%9F%8F%86+Top+800+of+31%2C000%2B+%E2%80%94+Meta+PyTorch+Hackathon;%F0%9F%93%B1+Flutter+%7C+React+%7C+Next.js+%7C+Three.js+%7C+GSAP;%F0%9F%8E%93+B.Tech+Computer+Engineering+%E2%80%94+DBATU+2027&v=5" alt="Typing SVG" />
 </a>
 
 <br><br>
@@ -313,7 +313,7 @@ Java / DSA           ████████████████░░░�
 
 <img src="https://github-readme-stats-fast.vercel.app/api?username=Adityaloharr0030&theme=radical&hide_border=true&include_all_commits=true&count_private=true&show_icons=true&rank_icon=github" alt="GitHub Stats" height="195"/>
 &nbsp;&nbsp;
-<img src="https://streak-stats.demolab.com/?user=Adityaloharr0030&theme=radical&hide_border=true&v=1" alt="GitHub Streak" height="195"/>
+<img src="https://github-readme-streak-stats-eight.vercel.app/?user=Adityaloharr0030&theme=radical&hide_border=true&v=5" alt="GitHub Streak" height="195"/>
 
 <br><br>
 
@@ -404,4 +404,4 @@ $ echo "--- end of experiment-626 transmissions ---"
 <!--                             FOOTER WAVE                                   -->
 <!-- ══════════════════════════════════════════════════════════════════════════ -->
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:6C63FF,50:0d1b6e,100:0a0a1e&height=130&section=footer&text=Built%20by%20Experiment%20626%20%E2%80%A2%20Powered%20by%20Ohana%20%26%20Stitch%20Energy&fontSize=14&fontColor=00CED1&animation=fadeIn&fontAlignY=65" alt="Footer" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:6C63FF,50:0d1b6e,100:0a0a1e&height=130&section=footer&text=Built%20by%20Experiment%20626%20%E2%80%A2%20Powered%20by%20Ohana%20and%20Stitch%20Energy&fontSize=14&fontColor=00CED1&animation=fadeIn&fontAlignY=65&v=5" alt="Footer" width="100%"/>
