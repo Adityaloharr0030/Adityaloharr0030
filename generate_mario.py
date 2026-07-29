@@ -23,17 +23,23 @@ OUT_LIGHT = "dist/mario-contribution-graph.svg"
 
 # ── GitHub API ────────────────────────────────────────────────────────────────
 def fetch_weeks(u, t):
+    # Braces: query{ user{ contributionsCollection{ contributionCalendar{ weeks{ contributionDays{ ... }}}}}}
+    # = 6 opening → 6 closing
     q = ('query($l:String!){user(login:$l){contributionsCollection{'
          'contributionCalendar{totalContributions weeks{'
-         'contributionDays{contributionCount date}}}}}}}')
+         'contributionDays{contributionCount date}}}}}}')
     p = json.dumps({"query": q, "variables": {"l": u}}).encode()
     req = urllib.request.Request("https://api.github.com/graphql", data=p,
         headers={"Authorization": f"Bearer {t}", "Content-Type": "application/json",
                  "User-Agent": "mario-graph"})
     with urllib.request.urlopen(req) as r:
         d = json.loads(r.read())
+    if "data" not in d or d["data"] is None:
+        print(f"ERROR: GitHub API returned: {json.dumps(d, indent=2)}")
+        sys.exit(1)
     cc = d["data"]["user"]["contributionsCollection"]["contributionCalendar"]
     return cc["weeks"], cc.get("totalContributions", 0)
+
 
 def lvl(c):
     if c == 0: return 0
@@ -747,23 +753,20 @@ def make_svg(weeks, total, dark):
     shadow = (f'<ellipse cx="{mario_cx}" cy="{P*MH+5}" '
               f'rx="{P*3}" ry="3.5" fill="black" opacity="0.18"/>\n')
 
-    # Normal Mario group
-    if normal_kt_show:
-        s.append(
-            f'<g{"" if fire_kt_show else ""}>\n'
-            f'{translate_anim}'
-            + (f'<g{""}>\n{normal_anim}\n' if fire_kt_show else '')
-            + shadow
-            + f'{body_svg}\n'
-            + f'<g class="f1">{walk_svgs[0]}</g>\n'
-            + f'<g class="f2">{walk_svgs[1]}</g>\n'
-            + f'<g class="f3">{walk_svgs[2]}</g>\n'
-            + (f'</g>\n' if fire_kt_show else '')
-            + f'</g>')
+    # ── Normal Mario ──
+    s.append(
+        f'<g>\n'
+        f'{translate_anim}'
+        f'<g>\n{normal_anim}\n'
+        + shadow
+        + f'{body_svg}\n'
+        + f'<g class="f1">{walk_svgs[0]}</g>\n'
+        + f'<g class="f2">{walk_svgs[1]}</g>\n'
+        + f'<g class="f3">{walk_svgs[2]}</g>\n'
+        + f'</g>\n</g>')
 
-    # Fire Mario group (same translate, different sprite)
+    # ── Fire Mario (shown on hottest rows) ──
     if fire_kt_show:
-        # Fire Mario = white with red shirt, fireballs trailing
         fb_offsets = [(-14, 4), (-22, 8), (-30, 3)]
         fb_svgs = "".join(
             f'<ellipse cx="{ox}" cy="{P*MH+oy}" rx="4" ry="3" fill="{fire_clr}" class="ff"/>'
