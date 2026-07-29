@@ -1,15 +1,15 @@
-﻿<!-- ═══════════════════════════════════════════════════════════════════════════ -->
+<!-- ═══════════════════════════════════════════════════════════════════════════ -->
 <!--          🛸  EXPERIMENT 626 — ADITYA LOHAR — GITHUB PROFILE  🌺             -->
 <!-- ═══════════════════════════════════════════════════════════════════════════ -->
 
 <div align="center">
 
 <!-- ╔══════════════════  HEADER WAVE  ══════════════════════════╗ -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=240&section=header&text=Experiment%20626%20%7C%20Aditya%20Lohar&fontSize=48&fontColor=fff&animation=twinkling&fontAlignY=38&desc=Software%20Engineer%20%E2%80%A2%20AI%2FML%20%E2%80%A2%20Full-Stack%20%E2%80%A2%20Flutter&descAlignY=60&descSize=18&descColor=aef" alt="Header" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0a0a1e,50:0d1b6e,100:6C63FF&height=230&section=header&text=Experiment%20626%20%7C%20Aditya%20Lohar&fontSize=46&fontColor=00CED1&animation=fadeIn&fontAlignY=38&desc=Software%20Engineer%20%E2%80%A2%20AI%2FML%20%E2%80%A2%20Full-Stack%20%E2%80%A2%20Flutter&descAlignY=60&descSize=17&descColor=aef" alt="Experiment 626 Header" width="100%"/>
 
 <!-- ╔══════════════════  LIVE TYPING ANIMATION  ══════════════════════╗ -->
 <a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=800&size=24&duration=2800&pause=700&color=00F5FF&center=true&vCenter=true&multiline=false&width=860&height=55&lines=🌺+Ohana+means+family+—+family+ships+production+code;🛸+Experiment+626+—+Built+for+chaos%2C+optimized+for+impact;🤖+AI%2FML+%7C+Gemini+API+%7C+Claude+API+Integrator;🏆+Top+800+of+31%2C000%2B+—+Meta+PyTorch+Hackathon;📱+Flutter+%7C+React+%7C+Next.js+%7C+Three.js+%7C+GSAP;🎓+B.Tech+Computer+Engineering+—+DBATU+2027" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=22&duration=3000&pause=800&color=00F5FF&center=true&vCenter=true&multiline=false&width=820&height=50&lines=%F0%9F%8C%BA+Ohana+means+family+%E2%80%94+family+ships+production+code;%F0%9F%9B%B8+Experiment+626+%E2%80%94+Built+for+chaos%2C+optimized+for+impact;%F0%9F%A4%96+AI%2FML+%7C+Gemini+API+%7C+Claude+API+Integrator;%F0%9F%8F%86+Top+800+of+31%2C000%2B+%E2%80%94+Meta+PyTorch+Hackathon;%F0%9F%93%B1+Flutter+%7C+React+%7C+Next.js+%7C+Three.js+%7C+GSAP;%F0%9F%8E%93+B.Tech+Computer+Engineering+%E2%80%94+DBATU+2027" alt="Typing SVG" />
 </a>
 
 <br><br>
@@ -404,4 +404,4 @@ $ echo "--- end of experiment-626 transmissions ---"
 <!--                             FOOTER WAVE                                   -->
 <!-- ══════════════════════════════════════════════════════════════════════════ -->
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=130&section=footer&text=Built%20by%20Experiment%20626%20%E2%80%A2%20Powered%20by%20Ohana%20%26%20Stitch%20Energy%20%F0%9F%9B%B8%F0%9F%8C%BA&fontSize=14&fontColor=fff&animation=twinkling&fontAlignY=65" alt="Footer" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:6C63FF,50:0d1b6e,100:0a0a1e&height=130&section=footer&text=Built%20by%20Experiment%20626%20%E2%80%A2%20Powered%20by%20Ohana%20%26%20Stitch%20Energy&fontSize=14&fontColor=00CED1&animation=fadeIn&fontAlignY=65" alt="Footer" width="100%"/>
