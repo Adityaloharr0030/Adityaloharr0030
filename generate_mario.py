@@ -206,10 +206,6 @@ def lightning_svg(cx, y_top, y_bot, ds, th, tf):
         f'<animate attributeName="opacity" dur="{ds}" repeatCount="indefinite" '
         f'values="0;0;1;0.6;0" keyTimes="0;{th:.5f};{tf:.5f};{min(0.9999,tf+0.015):.5f};{min(0.9999,tf+0.04):.5f}"/>'
         f'</polygon>'
-        f'<polygon points="{pts}" fill="white" opacity="0" filter="url(#blur3)">'
-        f'<animate attributeName="opacity" dur="{ds}" repeatCount="indefinite" '
-        f'values="0;0;0.7;0" keyTimes="0;{th:.5f};{tf:.5f};{min(0.9999,tf+0.03):.5f}"/>'
-        f'</polygon>'
     )
 
 # ── Main SVG generator ────────────────────────────────────────────────────────
@@ -276,16 +272,7 @@ def make_svg(weeks, total, dark):
   <stop offset="0%" stop-color="white" stop-opacity="0.9"/>
   <stop offset="100%" stop-color="white" stop-opacity="0"/>
 </radialGradient>
-<filter id="blur3" x="-80%" y="-80%" width="260%" height="260%">
-  <feGaussianBlur stdDeviation="3"/>
-</filter>
-<filter id="blur6" x="-100%" y="-100%" width="300%" height="300%">
-  <feGaussianBlur stdDeviation="6"/>
-</filter>
-<filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
-  <feGaussianBlur stdDeviation="2" result="blur"/>
-  <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
-</filter>
+
 <style>
 /* Walk frames */
 @keyframes f1{{0%,32.9%{{opacity:1}}33%,100%{{opacity:0}}}}
@@ -460,7 +447,7 @@ def make_svg(weeks, total, dark):
 
     qx = ML + best_wi*(C+G); qy = MT - C - G - 10
     s.append(f'<ellipse cx="{qx+C//2+1}" cy="{qy+C//2}" rx="26" ry="26" '
-             f'fill="#FFD700" opacity="0.18" class="gp" filter="url(#blur6)"/>')
+             f'fill="#FFD700" opacity="0.2" class="gp"/>')
     s.append(
         f'<g class="qb">'
         f'<rect x="{qx-2}" y="{qy-2}" width="{C+6}" height="{C+6}" rx="3" fill="#A07000"/>'
@@ -475,7 +462,7 @@ def make_svg(weeks, total, dark):
 
     ccx = qx + C//2 + 1; ccy = qy - 18
     s.append(f'<ellipse cx="{ccx}" cy="{ccy}" rx="22" ry="22" fill="#FFD700" '
-             f'opacity="0.25" class="gp" filter="url(#blur3)"/>')
+             f'opacity="0.22" class="gp"/>')
     s.append(
         f'<g class="cr">'
         f'<ellipse cx="{ccx}" cy="{ccy}" rx="10" ry="11" fill="url(#cg)"/>'
@@ -503,85 +490,44 @@ def make_svg(weeks, total, dark):
 
             if c > 0:
                 flash = "#FF6600" if lv >= 5 else "#FFD700"
-                s.append(
-                    f'<rect x="{cx}" y="{cy}" width="{C}" height="{C}" rx="2" fill="{col}">'
-                    f'<animate attributeName="fill" dur="{ds}" repeatCount="indefinite" '
-                    f'calcMode="discrete" values="{col};{flash};{dim}" '
-                    f'keyTimes="0;{th:.5f};{tf:.5f}"/></rect>')
-                # 3D edges
-                s.append(f'<rect x="{cx}"   y="{cy}"   width="{C}" height="2" fill="white" opacity="0.42"/>')
-                s.append(f'<rect x="{cx}"   y="{cy}"   width="2"   height="{C}" fill="white" opacity="0.24"/>')
-                s.append(f'<rect x="{cx}"   y="{cy+C-2}" width="{C}" height="2" fill="black" opacity="0.24"/>')
-                s.append(f'<rect x="{cx+C-2}" y="{cy}" width="2"   height="{C}" fill="black" opacity="0.18"/>')
+                # Static cell (no per-cell fill animate — too many bytes)
+                s.append(f'<rect x="{cx}" y="{cy}" width="{C}" height="{C}" rx="2" fill="{col}"/>')
+                # Top-left highlight only
+                s.append(f'<rect x="{cx}" y="{cy}" width="{C}" height="2" fill="white" opacity="0.35"/>')
+                s.append(f'<rect x="{cx}" y="{cy}" width="2" height="{C}" fill="white" opacity="0.2"/>')
 
-                r    = min(7.0, 2.8 + lv*1.1)
-                cpy  = cy - 28
-                kts  = f"0;{max(0,th-.003):.5f};{tf:.5f};{tv:.5f};{td:.5f}"
-                kts2 = f"0;{th:.5f};{td:.5f}"
-                # Glow
-                s.append(
-                    f'<circle cx="{cx+C//2}" cy="{cy+2}" r="{r*2:.1f}" '
-                    f'fill="{flash}" opacity="0" filter="url(#blur3)">'
-                    f'<animate attributeName="opacity" dur="{ds}" repeatCount="indefinite" '
-                    f'values="0;0;0.45;0" keyTimes="0;{th:.5f};{tf:.5f};{td:.5f}"/>'
-                    f'<animate attributeName="cy"      dur="{ds}" repeatCount="indefinite" '
-                    f'calcMode="linear" values="{cy+2};{cy+2};{cpy}" keyTimes="{kts2}"/></circle>')
-                # Coin
-                s.append(
-                    f'<circle cx="{cx+C//2}" cy="{cy+2}" r="{r:.1f}" fill="url(#cg)" opacity="0">'
-                    f'<animate attributeName="opacity" dur="{ds}" repeatCount="indefinite" '
-                    f'values="0;0;1;1;0" keyTimes="{kts}"/>'
-                    f'<animate attributeName="cy"      dur="{ds}" repeatCount="indefinite" '
-                    f'calcMode="linear" values="{cy+2};{cy+2};{cpy}" keyTimes="{kts2}"/></circle>')
-                # Shine
-                s.append(
-                    f'<circle cx="{cx+C//2-1}" cy="{cy+1}" r="{r*0.38:.1f}" '
-                    f'fill="white" opacity="0">'
-                    f'<animate attributeName="opacity" dur="{ds}" repeatCount="indefinite" '
-                    f'values="0;0;0.65;0" keyTimes="0;{th:.5f};{tf:.5f};{td:.5f}"/>'
-                    f'<animate attributeName="cy"      dur="{ds}" repeatCount="indefinite" '
-                    f'calcMode="linear" values="{cy+1};{cy+1};{cpy-1}" keyTimes="{kts2}"/></circle>')
-
-                # Sparkle burst lv3+
-                if lv >= 3:
-                    for angle in range(0, 360, 60):
-                        rad = math.radians(angle)
-                        sx2 = cx + C//2 + int(12*math.cos(rad))
-                        sy2 = cy + C//2 + int(12*math.sin(rad))
-                        s.append(
-                            f'<circle cx="{sx2}" cy="{sy2}" r="2.6" fill="{flash}" opacity="0">'
-                            f'<animate attributeName="opacity" dur="{ds}" repeatCount="indefinite" '
-                            f'values="0;0;1;0" keyTimes="0;{th:.5f};{tf:.5f};{td:.5f}"/>'
-                            f'<animate attributeName="r" dur="{ds}" repeatCount="indefinite" '
-                            f'values="2.6;2.6;0" keyTimes="{kts2}"/></circle>')
-
-                # Score lv4+
+                # Only animate high-contribution days (lv4+ = 10+ commits)
                 if lv >= 4:
+                    r    = min(7.0, 2.8 + lv*1.1)
+                    cpy  = cy - 26
+                    kts  = f"0;{max(0,th-.003):.4f};{tf:.4f};{tv:.4f};{td:.4f}"
+                    kts2 = f"0;{th:.4f};{td:.4f}"
+                    # Coin pop
+                    s.append(
+                        f'<circle cx="{cx+C//2}" cy="{cy+2}" r="{r:.1f}" fill="{flash}" opacity="0">'
+                        f'<animate attributeName="opacity" dur="{ds}" repeatCount="indefinite" '
+                        f'values="0;0;1;1;0" keyTimes="{kts}"/>'
+                        f'<animate attributeName="cy" dur="{ds}" repeatCount="indefinite" '
+                        f'calcMode="linear" values="{cy+2};{cy+2};{cpy}" keyTimes="{kts2}"/></circle>')
+                    # Score text
                     sco = f"+{min(990, c*10)}"
                     s.append(
                         f'<text x="{cx+C//2}" y="{cy-7}" text-anchor="middle" '
                         f'font-size="9" font-family="monospace" font-weight="bold" '
                         f'fill="white" opacity="0">{sco}'
                         f'<animate attributeName="opacity" dur="{ds}" repeatCount="indefinite" '
-                        f'values="0;0;1;0" keyTimes="0;{th:.5f};{tf:.5f};{td:.5f}"/>'
+                        f'values="0;0;1;0" keyTimes="0;{th:.4f};{tf:.4f};{td:.4f}"/>'
                         f'<animate attributeName="y" dur="{ds}" repeatCount="indefinite" '
-                        f'calcMode="linear" values="{cy-7};{cy-7};{cy-34}" '
-                        f'keyTimes="{kts2}"/></text>')
-                    s.append(
-                        f'<text x="{cx+C//2+10}" y="{cy-4}" font-size="12" '
-                        f'fill="#FFD700" opacity="0">★'
-                        f'<animate attributeName="opacity" dur="{ds}" repeatCount="indefinite" '
-                        f'values="0;0;1;0" keyTimes="0;{th:.5f};{tf:.5f};{td:.5f}"/>'
-                        f'<animate attributeName="y" dur="{ds}" repeatCount="indefinite" '
-                        f'calcMode="linear" values="{cy-4};{cy-4};{cy-32}" '
+                        f'calcMode="linear" values="{cy-7};{cy-7};{cy-32}" '
                         f'keyTimes="{kts2}"/></text>')
 
-                # ⚡ LIGHTNING for lv5 (15+ commits)
-                if lv >= 5:
-                    s.append(lightning_svg(cx+C//2, cy-40, cy-8, ds, th, tf))
+                    # ⚡ Lightning for lv5 (15+ commits)
+                    if lv >= 5:
+                        s.append(lightning_svg(cx+C//2, cy-38, cy-8, ds, th, tf))
 
             else:
                 s.append(f'<rect x="{cx}" y="{cy}" width="{C}" height="{C}" rx="2" fill="{col}"/>')
+
 
     # ════════════════════════════════════════════════════════════════════════
     # GROUND STRIP

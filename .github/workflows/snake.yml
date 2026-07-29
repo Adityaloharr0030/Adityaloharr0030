@@ -2,7 +2,7 @@ name: 🍄 Mario Contribution Graph
 
 on:
   schedule:
-    - cron: "0 */24 * * *"
+    - cron: "0 */12 * * *"
   workflow_dispatch:
   push:
     branches:
@@ -17,10 +17,10 @@ jobs:
 
     steps:
       - name: ⬇️ Checkout repository
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
       - name: 🐍 Set up Python
-        uses: actions/setup-python@v4
+        uses: actions/setup-python@v5
         with:
           python-version: '3.11'
 
@@ -30,10 +30,13 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GITHUB_USER: ${{ github.repository_owner }}
 
-      - name: 🚀 Push SVGs to output branch
-        uses: crazy-max/ghaction-github-pages@v3.1.0
+      - name: 🚀 Commit & Push SVGs to output branch
+        uses: crazy-max/ghaction-github-pages@v4
         with:
           target_branch: output
           build_dir: dist
+          commit_message: "🍄 Auto-update Mario contribution graph"
+          keep_history: false
+          jekyll: false
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
