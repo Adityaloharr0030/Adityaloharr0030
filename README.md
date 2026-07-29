@@ -313,7 +313,7 @@ Java / DSA           ████████████████░░░�
 
 <img src="https://github-readme-stats-fast.vercel.app/api?username=Adityaloharr0030&theme=radical&hide_border=true&include_all_commits=true&count_private=true&show_icons=true&rank_icon=github" alt="GitHub Stats" height="195"/>
 &nbsp;&nbsp;
-<img src="https://streak-stats.demolab.com/?user=Adityaloharr0030&theme=radical&hide_border=true" alt="GitHub Streak" height="195"/>
+<img src="https://streak-stats.demolab.com/?user=Adityaloharr0030&theme=radical&hide_border=true&v=1" alt="GitHub Streak" height="195"/>
 
 <br><br>
 
